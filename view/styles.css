@@ -1,0 +1,87 @@
+.admin-container {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+.header-text {
+    font-size: 3em;
+    text-align: center;
+}
+
+.nav-admin {
+    background: black;
+}
+
+.nav-admin-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-admin-list>li {
+    color: white;
+    font-family: "Helvetica";
+    padding: 1em;
+}
+
+.nav-admin-list>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-admin-list>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.add-category-text {
+    background: gainsboro;
+    font-size: 2em;
+}
+
+.id-category {
+    margin: .5em;
+}
+
+.category-id-input {
+    padding: .5em;
+    margin: .5em;
+    width: 20em;
+
+}
+
+.name-category {
+    margin: .5em;
+}
+
+.category-name-input {
+    padding: .5em;
+    margin: .5em;
+    width: 20em;
+}
+
+.admin-btn {
+    margin: .5em;
+    padding: .8em;
+}
+
+/* list-css  */
+table {   
+    border-collapse: collapse;
+}
+
+td, th {
+    border: .1em solid black;
+    padding: 1em;
+}
+
+input {
+    padding: 1em;
+}
+
+.row_last {
+    margin: 1em;
+}
+
+.row_first{
+    background-color: gray;
+}
